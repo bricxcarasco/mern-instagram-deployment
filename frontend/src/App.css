@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a {
+    color: black !important;
+}
+
+.brand-logo {
+    font-family: 'Grand Hotel', cursive;
+}
+
+.btn-logout {
+    margin: 30px !important;
+}
+
+.my-card {
+    margin-top: 30px;
+}
+
+.auth-card {
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.auth-card h2 {
+    font-family: 'Grand Hotel', cursive;
+}
+
+.auth-card-account {
+    padding: 5px;
+    text-align: center;
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.auth-card-account a {
+    color: #095ff4 !important;
+    font-weight: 600;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus, .input-field input[type=password]:focus  {
+    border-bottom: 1px solid #095ff4 !important;
+    box-shadow: 0 1px 0 0 #095ff4 !important;
+}
+
+.main-profile {
+    max-width: 550px;
+    margin: 0px auto;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    margin: 18px 0px;
+    border-bottom: 1px solid grey;
+}
+
+.profile-picture {
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+
+.profile-count {
+    display: flex;
+    justify-content: space-between;
+    width: 108%;
+}
+
+.profile-upload-pic {
+    text-align: center;
+    margin: 12px;
+}
+
+.profile-upload-pic-btn {
+    height: 32.4px !important;
+    line-height: 32.4px !important;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-image {
+    width: 30%;
+}
+
+.home-card {
+    max-width: 500px;
+    margin: 20px auto;
+    height: max-content;
+}
+
+.home-buttons i {
+    padding: 0 4px;
+}
+
+.home-favorite {
+    padding-left: 0px !important;
+    color: #ed4956;
+}
+
+.home-delete {
+    padding-left: 0px !important;
+    color: #ed4956;
+}
+
+.home-delete:hover {
+    cursor: pointer;
+    color: #da1b2b;
+}
+
+
+.home-thumb {
+    color: #0745b1;
+}
+
+.home-thumb:hover {
+    cursor: pointer;
+    color: #095ff4;
+}
+
+.post-name {
+    padding: 12px 12px 6px 12px;
+}
+
+.post-comment-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-comment-section span {
+    margin-left: 10px;
+}
+
+.create-post {
+    margin: 30px auto;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+#toast-container {
+    top: 30px !important;
+    right: 20px !important;
+    left: auto !important;
+}
+
+.user-profile-loading {
+    font-family: 'Grand Hotel', cursive;
+    margin: 50px auto;
+}
+
+.follow-button {
+    width: 115px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.following-button {
+    width: 115px;
+    margin-left: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.following-button:hover {
+    background-color: #ed4956 !important;
+}
