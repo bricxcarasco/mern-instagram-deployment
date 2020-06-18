@@ -4,7 +4,6 @@
   "description": "This is the server of MERN Instagram",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js",
     "start": "node app.js",
     "heroku-postBuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
