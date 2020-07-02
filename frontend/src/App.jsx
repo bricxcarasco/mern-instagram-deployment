@@ -11,6 +11,7 @@ import CreatePost from './components/pages/CreatePost';
 import UserProfile from './components/pages/UserProfile';
 import UserFollowingPost from './components/pages/UserFollowingPost';
 import ResetPassword from './components/pages/ResetPassword';
+import NewPassword from './components/pages/NewPassword';
 
 export const UserContext = createContext();
 
@@ -43,6 +44,9 @@ const Routing = () => {
 			</Route>
 			<Route path="/reset-password" exact>
 				<ResetPassword />
+			</Route>
+			<Route path='/reset-password/:token'>
+				<NewPassword />
 			</Route>
 			<Route path="/profile" exact>
 				<Profile />
