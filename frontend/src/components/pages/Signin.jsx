@@ -72,6 +72,10 @@ const Signin = () => {
             <div className="card auth-card-account input-field">
                 <p>Don't have account an accout? <Link to="/signup">Sign Up</Link></p>
             </div>
+
+            <div className="card auth-card-account input-field">
+                <p>Forgot your password? <Link to="/reset-password">Reset Password</Link></p>
+            </div>
         </div>
     );
 }

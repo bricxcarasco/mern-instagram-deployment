@@ -10,6 +10,7 @@ import Profile from './components/pages/Profile';
 import CreatePost from './components/pages/CreatePost';
 import UserProfile from './components/pages/UserProfile';
 import UserFollowingPost from './components/pages/UserFollowingPost';
+import ResetPassword from './components/pages/ResetPassword';
 
 export const UserContext = createContext();
 
@@ -39,6 +40,9 @@ const Routing = () => {
 			</Route>
 			<Route path="/signup">
 				<Signup />
+			</Route>
+			<Route path="/reset-password" exact>
+				<ResetPassword />
 			</Route>
 			<Route path="/profile" exact>
 				<Profile />
