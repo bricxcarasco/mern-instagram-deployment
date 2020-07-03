@@ -8,6 +8,11 @@ a {
     font-family: 'Grand Hotel', cursive;
 }
 
+.navbar-search {
+    color: #000000;
+    cursor: pointer;
+}
+
 .btn-logout {
     margin: 30px !important;
 }
