@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory, useParams } from 'react-router-dom';
 import M from 'materialize-css';
-import { response } from 'express';
 
 const NewPassword = () => {
     const { token } = useParams();
