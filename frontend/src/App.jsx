@@ -10,8 +10,8 @@ import Profile from './components/pages/Profile';
 import CreatePost from './components/pages/CreatePost';
 import UserProfile from './components/pages/UserProfile';
 import UserFollowingPost from './components/pages/UserFollowingPost';
-import ResetPassword from './components/pages/ResetPassword';
-import NewPassword from './components/pages/NewPassword';
+// import ResetPassword from './components/pages/ResetPassword';
+// import NewPassword from './components/pages/NewPassword';
 
 export const UserContext = createContext();
 
@@ -42,12 +42,12 @@ const Routing = () => {
 			<Route path="/signup">
 				<Signup />
 			</Route>
-			<Route path="/reset-password" exact>
+			{/* <Route path="/reset-password" exact>
 				<ResetPassword />
 			</Route>
 			<Route path='/reset-password/:token'>
 				<NewPassword />
-			</Route>
+			</Route> */}
 			<Route path="/profile" exact>
 				<Profile />
 			</Route>
